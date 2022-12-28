@@ -20,14 +20,14 @@ main {
     align-items: center;
 }
 .contaner {
-    border: 1px solid black;
+    
     width: 90%;
     height: 90%;
     display: block;
     gap: 10px;
 }
 .head {
-    border: 1px solid blue;
+    
     width: 100%;
     height: 20%;
     display: flex;
@@ -38,12 +38,12 @@ main {
     width: 10rem;
 }
 .main {
-    border: 1px solid red;
+    
     height: 69.5%;
     display: flex;
 }
 .image {
-    border: 1px solid blue;
+    
     width: 37%;
     height: 100%;
 } 
@@ -52,13 +52,13 @@ main {
     height: 20rem;
 }
 .discription {
-    border: 1px solid blue;
+    
     width: 50%;
     padding-left: 20px;
     display: block;
 }
 .header {
-    border: 1px solid black;
+    
     height: 50%;
     width: 80%;
     padding-right: 20px;
@@ -70,7 +70,7 @@ main {
     text-align: start;
 }
 .paragraph {
-    border: 1px solid black;
+    
     height: 23%;
     font-size: 18px;
     text-align: start;
@@ -102,7 +102,7 @@ main {
      cursor: pointer;
 }
 .icons {
-    border: 1px solid black;
+    
     height: 9.4%;
     display: flex;
     align-items: center;
@@ -133,7 +133,7 @@ main {
     body{
         background-image: url(images/bg-mobile.svg);
         background-repeat: no-repeat;
-        border: 1px solid blue;
+     
         height: 100vh;
         background-size: contain;
         background-position: top;
@@ -162,7 +162,7 @@ main {
         height: 100%;
     }
     .discription {
-        border: 1px solid blue;
+     
         width: 100%;
         height: 49%;
         padding: 0;
@@ -185,12 +185,19 @@ main {
     }
     .buttion {
         margin-top: 6px;
-        border: 1px solid blueviolet;
+     
         margin-left: 22%;
         width: 11rem;
         height: 3rem;
     }
+    .icons {
+        display: flex;
+        justify-content: center;
+     
+    }
+
 }
+
 
 
 
